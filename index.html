@@ -4,25 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="color-scheme" content="dark light" />
+    <meta name="color-scheme" content="dark light">
     <link rel="stylesheet" href="./styles/variables.css">
     <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/globals.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/dark.css">
     <link rel="stylesheet" href="./styles/light.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" media="(min-width: 768px)" href="/styles/style.css">
     <link rel="stylesheet" media="(min-width: 1024px)" href="/styles/style.css">
     <title>Сложно сосредоточиться</title>
   </head>
   <body class="page">
     <header class="header decorated-zone">
+      <span class="decoration_rec" aria-hidden="true"></span>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
             <button
               class="headertheme-menu-button headertheme-menu-button_type_light"
             >
-              День
+              день
             </button>
           </li>
           <li class="header__theme-menu-item">
@@ -30,14 +33,14 @@
               class="headertheme-menu-button headertheme-menu-button_active header__theme-menu-button_type_auto"
               disabled
             >
-              Авто
+              авто
             </button>
           </li>
           <li class="header__theme-menu-item">
             <button
               class="headertheme-menu-button headertheme-menu-button_type_dark"
             >
-              Неон
+              неон
             </button>
           </li>
         </ul>
@@ -46,19 +49,19 @@
         no focus
       </h1>
         <p class="header__text">
-          Что делать, когда не можешь<br>
+          Что делать, когда не можешь
           делать ничего <br>Или почему нам так сложно сконцентрироваться,
-          особенно<br>
+          особенно
           когда очень надо
         </p>
     </header>
     <script src="./scripts/script.js"></script>
     <main class="main">
-      <section class="section">
+      <section class="section__first">
         <h2 class="subtitle">
           Почему сосредоточиться так сложно
         </h2>
-        <section>
+        <section class="section__first-card">
           <h3 class="title-decor">Многозадачность</h3>
           <p class="paragraph__text">
             Особенно сложно сосредоточиться, когда задач много и все они —
@@ -71,7 +74,7 @@
             выделяет кортизол и адреналин — «гормоны стресса». Из-за этого мы
             работаем невнимательно: ошибаемся и быстро устаём.
           </p>
-          <section>
+          <section class="section__first-card">
           <h3 class="title-decor">Дофамин</h3>
           <p class="paragraph__text">
             С гормонами стресса всё понятно, но дальше — ещё интереснее. В нашей
@@ -86,12 +89,12 @@
         </section>
       </section>
     </section>
-      <section class="section">
-        <h2 class="subtitle">
+      <section class="section__flex">
+        <h2 class="subtitle subtitle__flex">
           Что снижает концентрацию внимания?
         </h2>
-        <section class="section__column">
-          <article>
+        <section class="section__flex-card">
+          <article class="article">
           <h3 class="title-decor">Многозадачность</h3>
           <p class="paragraph__text">
             Как концентрация может снижаться из-за… концентрации? Любая
@@ -102,7 +105,7 @@
             не давать ей отдохнуть.
           </p>
           </article>
-          <article>
+          <article class="article">
           <h3 class="title-decor">Еда</h3>
           <p class="paragraph__text">
             «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
@@ -113,7 +116,7 @@
             больше быстрых углеводов.
           </p>
         </article>
-        <article>
+        <article class="article">
           <h3 class="title-decor">Гаджеты</h3>
           <p class="paragraph__text">
             Да-да, это та самая ситуация, когда на экране ноутбука — код, в
@@ -127,13 +130,13 @@
         </article>
         </section>
       </section>
-      <section class="section">
+      <section class="section__last">
         <h2 class="subtitle">
           Как концентрироваться лучше, чем
           золотая рыбка (то есть дольше
           трёх секунд)
         </h2>
-        <section>
+        <section class="section__last-card">
           <h3 class="title-decor">
             5 простых (на самом деле не очень) советов
           </h3>
@@ -177,11 +180,12 @@
             прочитать пост в соцсети, достаточно нескольких минут или даже
             секунд. А вот интересная книга способна затянуть и на несколько
             часов и круто тренирует направленное внимание.
-          <h3 class="title-decor">А можно в картинках?</h3>
           </p>
         </section>
       </section>
-      <section class="section_image">
+      <section class="section_gallery">
+        <h3 class="title-decor title-decor">А можно в картинках?</h3>
+        <div class="section_image">        
         <img
           class="main-images"
           src="/images/sunset.png"
@@ -213,6 +217,7 @@
           loading="lazy"
         >
       </section>
+    </div>
     </main>
     <footer class="footer">
       <h2 class="title-footer">focus</h2>

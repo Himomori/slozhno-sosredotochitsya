@@ -4,9 +4,70 @@
   переключая тему
 */
 
-.page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+/* .page.theme_dark { 
+  --text-color: #F1B2CE;
+  --text-decor: #FF0070;
+  --accent-color: #DB00FF;
+  --bg-color: #000028;
+  --font: IBM Plex Mono;
+  --bg-image: url(/images/cover-image-dark.png);
+}*/
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-shadow: #ff0070;
+    --color-paragraph: #000028;
+    --decoration: #ff0070;
+    --buttom: #ff0070;
+    --subtitle: #f1b2ce;
+    --text-color: #f1b2ce;
+    --text-decor: #ff0070;
+    --accent-color: #db00ff;
+    --bg-color: #000028;
+    --font: IBM Plex Mono;
+    --hover-color: rgba(255, 0, 112, 0.4);
+    --bg-image: url(/images/cover-image-dark.png);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .headertheme-menu-button_type_dark {
+    outline: 1px solid var(--text-decor);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .headertheme-menu-button_type_dark:hover {
+    outline: 1px solid var(--hover-color);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .headertheme-menu-button_type_dark:focus {
+    outline: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .headertheme-menu-button_type_dark:focus-visible {
+    border-block-end: 1px solid var(--text-decor);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .paragraph__link:hover {
+    border-block-end: 1px solid var(--text-color);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .paragraph__link:focus {
+    outline: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .paragraph__link:focus-visible {
+    border: 1px solid var(--text-color);
+  }
 }
