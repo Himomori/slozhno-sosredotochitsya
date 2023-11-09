@@ -4,14 +4,20 @@
   переключая тему
 */
 
-/* .page.theme_dark { 
-  --text-color: #F1B2CE;
-  --text-decor: #FF0070;
-  --accent-color: #DB00FF;
+.page.theme_dark {
+  --color-shadow: #ff0070;
+  --color-paragraph: #000028;
+  --decoration: #ff0070;
+  --buttom: #ff0070;
+  --subtitle: #f1b2ce;
+  --text-color: #f1b2ce;
+  --text-decor: #ff0070;
+  --accent-color: #db00ff;
   --bg-color: #000028;
-  --font: IBM Plex Mono;
+  --font: "IBM Plex Mono", Arial, sans-serif;
+  --hover-color: rgba(255, 0, 112, 0.4);
   --bg-image: url(/images/cover-image-dark.png);
-}*/
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -24,50 +30,50 @@
     --text-decor: #ff0070;
     --accent-color: #db00ff;
     --bg-color: #000028;
-    --font: IBM Plex Mono;
+    --font: "IBM Plex Mono", Arial, sans-serif;
     --hover-color: rgba(255, 0, 112, 0.4);
     --bg-image: url(/images/cover-image-dark.png);
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  .headertheme-menu-button_type_dark {
+  .header__theme-menu-button_type_dark {
     outline: 1px solid var(--text-decor);
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  .headertheme-menu-button_type_dark:hover {
+  .header__theme-menu-button_type_dark:hover {
     outline: 1px solid var(--hover-color);
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  .headertheme-menu-button_type_dark:focus {
+  .header__theme-menu-button_type_dark:focus {
     outline: none;
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  .headertheme-menu-button_type_dark:focus-visible {
+  .header__theme-menu-button_type_dark:focus-visible {
     border-block-end: 1px solid var(--text-decor);
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  .paragraph__link:hover {
+  .paragraph-link:hover {
     border-block-end: 1px solid var(--text-color);
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  .paragraph__link:focus {
+  .paragraph-link:focus {
     outline: none;
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  .paragraph__link:focus-visible {
+  .paragraph-link:focus-visible {
     border: 1px solid var(--text-color);
   }
 }
