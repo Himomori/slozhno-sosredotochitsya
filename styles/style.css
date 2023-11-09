@@ -257,7 +257,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 22px;
-    margin-block-start: 12px;
+    margin-block-start: 16px;
   }
 
   .subtitle:first-of-type {
@@ -385,7 +385,7 @@
   }
 
   .section:first-of-type {
-    margin-block-start: 29px;
+    margin-block-start: 25px;
     gap: 12px;
   }
 
