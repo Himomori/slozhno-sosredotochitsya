@@ -10,11 +10,13 @@
   --decoration: #ff0070;
   --buttom: #ff0070;
   --subtitle: #f1b2ce;
+  --focus: #ff0070;
+  --paragraph-pseudo: #f1b2ce;
   --text-color: #f1b2ce;
   --text-decor: #ff0070;
   --accent-color: #db00ff;
   --bg-color: #000028;
-  --font: "IBM Plex Mono", Arial, sans-serif;
+  --font: "IBM Plex Mono", serif;
   --hover-color: rgba(255, 0, 112, 0.4);
   --bg-image: url(/images/cover-image-dark.png);
 }
@@ -26,54 +28,23 @@
     --decoration: #ff0070;
     --buttom: #ff0070;
     --subtitle: #f1b2ce;
+    --focus: #ff0070;
+    --paragraph-pseudo: #f1b2ce;
     --text-color: #f1b2ce;
     --text-decor: #ff0070;
     --accent-color: #db00ff;
     --bg-color: #000028;
-    --font: "IBM Plex Mono", Arial, sans-serif;
+    --font: "IBM Plex Mono", serif;
     --hover-color: rgba(255, 0, 112, 0.4);
-    --bg-image: url(/images/cover-image-dark.png);
+    --bg-image: url(./images/cover-image-dark.png);
   }
-}
 
-@media (prefers-color-scheme: dark) {
   .header__theme-menu-button_type_dark {
-    outline: 1px solid var(--text-decor);
+    outline: 1px solid var(--buttom);
   }
+
 }
 
-@media (prefers-color-scheme: dark) {
-  .header__theme-menu-button_type_dark:hover {
-    outline: 1px solid var(--hover-color);
-  }
-}
 
-@media (prefers-color-scheme: dark) {
-  .header__theme-menu-button_type_dark:focus {
-    outline: none;
-  }
-}
 
-@media (prefers-color-scheme: dark) {
-  .header__theme-menu-button_type_dark:focus-visible {
-    border-block-end: 1px solid var(--text-decor);
-  }
-}
 
-@media (prefers-color-scheme: dark) {
-  .paragraph-link:hover {
-    border-block-end: 1px solid var(--text-color);
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .paragraph-link:focus {
-    outline: none;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .paragraph-link:focus-visible {
-    border: 1px solid var(--text-color);
-  }
-}

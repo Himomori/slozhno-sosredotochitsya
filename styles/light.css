@@ -10,13 +10,15 @@
   --decoration: #353430;
   --buttom: #353430;
   --subtitle: #353430;
+  --focus: #353430;
+  --paragraph-pseudo: #353430;
   --text-color: #353430;
   --text-decor: #ff8dcb;
   --accent-color: #ffc2e6;
   --bg-color: #fff1f7;
   --hover-color: rgba(50, 49, 45, 0.4);
-  --font: "IBM Plex Mono", Arial, sans-serif;
-  --bg-image: url(/images/cover-image-light.png);
+  --font: "IBM Plex Mono", serif;
+  --bg-image: url(./images/cover-image-light.png);
 }
 
 .theme_light .decoration-rec {
@@ -31,67 +33,24 @@
     --decoration: #353430;
     --buttom: #353430;
     --subtitle: #353430;
+    --focus: #353430;
+    --paragraph-pseudo: #353430;
     --text-color: #353430;
     --text-decor: #ff8dcb;
     --accent-color: #ffc2e6;
     --bg-color: #fff1f7;
     --hover-color: rgba(50, 49, 45, 0.4);
-    --font: "IBM Plex Mono", Arial, sans-serif;
-    --bg-image: url(/images/cover-image-light.png);
+    --font: "IBM Plex Mono", serif;
+    --bg-image: url(./images/cover-image-light.png);
   }
-}
 
-@media (prefers-color-scheme: light) {
   .decoration-rec {
     display: block;
     visibility: hidden;
   }
-}
 
-@media (prefers-color-scheme: light) {
   .header__theme-menu-button_type_light {
-    outline: 1px solid var(--text-color);
+    outline: 1px solid var(--buttom);
   }
-}
 
-@media (prefers-color-scheme: light) {
-  .header__theme-menu-button_type_light:hover {
-    outline: 1px solid var(--hover-color);
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  .header__theme-menu-button_type_light:focus {
-    outline: none;
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  .header__theme-menu-button_type_light:focus-visible {
-    border-block-end: 1px solid var(--text-color);
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  .paragraph-link:focus {
-    outline: none;
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  .paragraph-link:focus-visible {
-    border: 1px solid var(--text-color);
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  .subtitle {
-    color: #353430;
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  .header__theme-menu-button {
-    color: #353430;
-  }
 }
