@@ -62,7 +62,7 @@
   inline-size: 25px;
   block-size: 25px;
   left: 0;
-  bottom: 12px;
+  bottom: 20px;
   position: absolute;
 }
 
@@ -238,11 +238,12 @@
   align-items: center;
   block-size: 100vh;
   height: 100vh;
-  margin-block-start: 40px;
+  margin-block-start: 53px;
 }
 
 .footer__title {
   text-shadow: 2px 2px 0px var(--text-decor);
+  margin-block-end: 20px;
 }
 
 @media (min-width: 768px) {
@@ -252,7 +253,7 @@
 
 
   .decorated-zone::after {
-    bottom: 35px;
+    bottom: 43px;
   }
 
 
@@ -303,7 +304,7 @@
   }
 
   .section:last-of-type {
-    margin-block-end: 20px;
+    margin-block-end: 73px;
   }
 
 
@@ -368,6 +369,7 @@
 
   .header__theme-menu {
     margin-block-end: 21%;
+    margin-right: 8px;
   }
 
   .header__theme-menu-item {
@@ -412,7 +414,7 @@
   }
 
   .section:last-of-type {
-    margin-block-end: 128px;
+    margin-block-end: 40px;
   }
 
   .footer {
