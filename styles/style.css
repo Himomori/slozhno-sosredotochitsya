@@ -98,6 +98,7 @@
 
 .header__theme-menu-button_active {
   pointer-events: none;
+  outline: 1px solid var(--buttom);
 }
 
 .header__theme-menu {

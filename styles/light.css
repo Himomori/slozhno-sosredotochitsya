@@ -48,9 +48,4 @@
     display: block;
     visibility: hidden;
   }
-
-  .header__theme-menu-button_type_light {
-    outline: 1px solid var(--buttom);
-  }
-
 }
