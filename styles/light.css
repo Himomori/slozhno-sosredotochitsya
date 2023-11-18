@@ -18,7 +18,7 @@
   --bg-color: #fff1f7;
   --hover-color: rgba(50, 49, 45, 0.4);
   --font: "IBM Plex Mono", serif;
-  --bg-image: url(images/cover-image-light.png);
+  --bg-image: url(../images/cover-image-light.png);
 }
 
 .theme_light .decoration-rec {
@@ -41,7 +41,7 @@
     --bg-color: #fff1f7;
     --hover-color: rgba(50, 49, 45, 0.4);
     --font: "IBM Plex Mono", serif;
-    --bg-image: url(images/cover-image-light.png);
+    --bg-image: url(/..images/cover-image-light.png);
   }
 
   .decoration-rec {
