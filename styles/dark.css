@@ -18,7 +18,7 @@
   --bg-color: #000028;
   --font: "IBM Plex Mono", serif;
   --hover-color: rgba(255, 0, 112, 0.4);
-  --bg-image: url(/images/cover-image-dark.png);
+  --bg-image: url(images/cover-image-dark.png);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -36,7 +36,7 @@
     --bg-color: #000028;
     --font: "IBM Plex Mono", serif;
     --hover-color: rgba(255, 0, 112, 0.4);
-    --bg-image: url(./images/cover-image-dark.png);
+    --bg-image: url(images/cover-image-dark.png);
   }
 
   .header__theme-menu-button_type_dark {
