@@ -17,7 +17,7 @@
   --accent-color: #ffc2e6;
   --bg-color: #fff1f7;
   --hover-color: rgba(50, 49, 45, 0.4);
-  --font: "IBM Plex Mono", serif;
+  --font: "IBM Plex Mono", monospace;
   --bg-image: url(../images/cover-image-light.png);
 }
 
@@ -40,7 +40,7 @@
     --accent-color: #ffc2e6;
     --bg-color: #fff1f7;
     --hover-color: rgba(50, 49, 45, 0.4);
-    --font: "IBM Plex Mono", serif;
+    --font: "IBM Plex Mono", monospace;
     --bg-image: url(/..images/cover-image-light.png);
   }
 
