@@ -8,7 +8,6 @@
   background-position: center;
   margin: 10px;
   min-width: 80%;
-  block-size: 100vh;
 }
 
 .decoration-rec {
@@ -350,9 +349,7 @@
 }
 
 @media (min-width: 1024px) {
-
   .header {
-    display: grid;
     justify-items: center;
   }
 
